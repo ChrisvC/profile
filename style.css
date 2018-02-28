@@ -1,0 +1,91 @@
+@media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+h1, h2, h3 {
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    text-align-last: center;
+}
+
+p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+body {
+    background-image: url(images/wallpaper_mikael_gustafsson.png);
+}
+
+.img-circle {
+    border-radius: 75%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 500px;
+    margin: 5;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.584)
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.shadowed {
+    box-shadow: 5px 5px 3px black;
+}
+
+.leader {
+    border: 1px solid blue;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: rgb(4, 75, 127);
+}
+
+a:hover {
+    color: rgba(154, 6, 6, 0.797);
+    background-color: rgba(233, 229, 229, 0.578);
+    font-size: 110%;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+}
+
+.list-inline {
+    padding-left: 0px; !important
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icon_bigger {
+    font-size: 25px;
+}
